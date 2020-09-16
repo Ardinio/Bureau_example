@@ -10,12 +10,12 @@ class Program
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan: ");
+            System.Console.Write("Vad vill du lägga i lådan :): ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
             {
-                Console.WriteLine("Stänger byrån...");
+                Console.WriteLine("Stänger byrån... :(");
                 Environment.Exit(0);
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
